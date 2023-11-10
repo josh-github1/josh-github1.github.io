@@ -4,6 +4,11 @@ title: "Tutorial on Discretization for Digital Controller Design"
 categories: misc
 ---
 
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+
 
 ## Introduction
 
