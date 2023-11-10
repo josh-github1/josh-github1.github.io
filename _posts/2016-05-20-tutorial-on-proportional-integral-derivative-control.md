@@ -1,5 +1,5 @@
 ---
-title: Proportional Integral Derivative Control
+title: Tutorial on Proportional Integral Derivative Control
 layout: post
 ---
 
