@@ -1,15 +1,13 @@
 ---
 layout: post
-title: "This post demonstrates post content styles"
-categories: junk
+title: "Lyapunov Stability for Time-Invariant Systems"
 author:
-- Bart Simpson
-- Nelson Mandela Muntz
+- Joshua Ramayrat
 meta: "Springfield"
 ---
 
 
-## Lyapunov Stability for Time-Invariant Systems
+## Introduction
 
 Analyzing the stability of any control system is essential in the control design process. It is faulty to provide just any input to a system without considering whether the system itself can handle it. 
 
@@ -26,16 +24,16 @@ When it comes to nonlinear control design, an understanding of the concept of Ly
 
 For starters, the following is a linear differential equation that represents the physics of how a mass-spring-damper works when subject to no external forces (this could literally be a ball attached to a spring and damper): \ 
 
-<p>$latex m\ddot{x} + c\dot{x} + kx = 0 $</p>
+$$m\ddot{x} + c\dot{x} + kx = 0 $$
 
 This is linear because the state variables $latex \ddot{x}$, $latex \dot{x}$, and $latex x$ are added and single variables that are not multiplied with each other. The following is a non-linear version of the mass spring damper: \
 
-<p>$latex m\ddot{x} + c\dot{x}|\dot{x}| + k_0x + k_1x^3 = 0 $</p> \
+$$ m\ddot{x} + c\dot{x}|\dot{x}| + k_0x + k_1x^3 = 0 $$
 
 If you were to give an input to this system, such as by u(t), the output of the system would be disproportionate. Nonlinear systems also come in two types - autonomous and non-autonomous. This should not be confused with literal autonomous systems such as robots or autonomous vehicles (although one can find ways to apply this math to such systems). In the context of nonlinear control, autonomous simply means time-invariant - it does not depend on time or the parameters of the system equation are time-independent. Non-autonomous is the opposite in that the system or differential equation does depend on time - it is time-variant. \
 
-<p>$latex \dot{x} = f(x) $</p>
-<p>$latex \dot{x} = f(x, t) $</p>
+$$ \dot{x} = f(x) $$
+$$ \dot{x} = f(x, t) $$
 Notice how the first function, f(x), does not have the variable time, t, as an argument while the second function, f(x, t), does. \
 
 As a result, Lyapunov stability is handled differently for autonomous and non-autonomous systems. This article covers the former. In reality, all systems are actually time-dependent because there is no parameter that is truly constant and unchanging with time. However, in a lot of cases we can simplify and assume that the parameters are slowly varying to the point of being practically time-independent. As in, the masses of most objects in question don't change significantly in the span of 1 second to an hour, so we can assume mass is a constant parameter.
@@ -47,11 +45,13 @@ Definition: If x(t) is equal to x* and remains equal to x*, then x* is an equili
 
 To further illustrate, consider a physical interpretation of an equilibrium point. The following is a nonlinear differential equation that describes the motion of a pendulum:
 
-<p>$latex MR^2 \ddot{\theta} + b\dot{\theta} + MgRsin(\theta) = 0 $</p>
-Thinking about it physically and intuitively, the pendulum has 2 possible locations of coming to a complete stop - either in the vertical up position or the vertical down position. These locations represent the equilibrium points of the pendulum and its equation of motion. It is with this knowledge that we can understand the stability of the system - will the system keep oscillating out of control or will it eventually settle down to an equilibrium state? Under no external forces, the pendulum will eventually settle down and thus we can conclude that the system is stable.
+$$ MR^2 \ddot{\theta} + b\dot{\theta} + MgRsin(\theta) = 0 $$
 
-References
-[1] Slotine, Jean-Jacques E., and Weiping Li. Applied nonlinear control. Vol. 199. No. 1. Englewood Cliffs, NJ: Prentice hall, 1991.
+Thinking about it physically and intuitively, the pendulum has 2 possible locations of coming to a complete stop - either in the vertical up position or the vertical down position. These locations represent the equilibrium points of the pendulum and its equation of motion. It is with this knowledge that we can understand the stability of the system - will the system keep oscillating out of control or will it eventually settle down to an equilibrium state? Under no external forces, the pendulum will eventually settle down and thus we can conclude that the system is stable. \
+
+#### References
+
+[1] Slotine, Jean-Jacques E., and Weiping Li. Applied nonlinear control. Vol. 199. No. 1. Englewood Cliffs, NJ: Prentice hall, 1991. \
 
 ﻿
 
