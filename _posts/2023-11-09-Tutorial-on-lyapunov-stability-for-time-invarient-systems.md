@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tutorial on Lyapunov Stability for Time-Invariant Systems"
+title: "Lyapunov Stability for Time-Invariant Systems"
 author:
 - Joshua Ramayrat
 meta: "Springfield"
