@@ -1,22 +1,52 @@
 ---
 layout: post
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+About
+This blog is meant to help spread knowledge and provide tutorials & explanations on control systems, robotics, and software. 
 
-Jekyll also offers powerful support for code snippets:
+It's a continuous work-in-progress.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Author's Timeline
+[2023-Present] Researcher | Lab of Professor Mojtaba Sharifi
+Robotics software development for humanoid/exoskeleton and mobile rehabilitation robots in the SJSU Mechanical Engineering Department.
+I'm writing embedded- and adaptive nonlinear control software in C++. I also research into planning and control for mobile/assistive walker robots with ROS, C++, and Python.
+[2021-2023] Specialist, System Architecture | Waymo
+ I was recruited by staffing agency, Tezerakt LLC, for the System Architecture team. 
+Waymo is Google X's self-driving vehicle project.
+Software development in Python and documenting electrical hardware data.
+(10% project) Hardware testing & controls development.
+[2019-2021] M.Sc Mechanical Engineering @ San Jose State University
+GPA 3.7 | Dynamics, Controls & Artificial Intelligence | Tau Beta Pi
+Software & Mechanical Engineering Internship @ NeuroLeap
+Embedded systems, machine learning, and hardware
+Manufacturing Engineering Internship @ FormFactor
+Magnetic simulation and data analysis software
+Master's Project: Developed and deployed algorithms to detect objects during occlusions (TensorFlow and Kalman Filters) on a robot w/ AI compute- & depth perception hardware
+Advisor: Professor Saeid Bashash
+Computer Science Department publication on neural networks & robotic arms
+Advisor: Professor Teng Moh
+Embedded control software development for the SJSU Robotics Club
+Deploying vision algorithms for the Machine Learning Club
+[2018] Gap year
+I was teaching myself C/C++, software development, and about robotics.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[2013-2017] B.Sc Mechanical Engineering @ Santa Clara University
+MechE Internship @ Lab2Fab | Automating rocket manufacturing for SpaceX
+Helped lead my Senior Design Team on developing a hybrid drone
+Advisor: Professor Mohammad Ayoubi
+Fracture Mechanics with Professor Robert Marks
+International summer program at University of Lille on project management and energy
+Worked part-time as a teacher for STEM camps; in the Grad Department planning events; and even front-desk at a ping-pong facility 😄
+Various independent design- and mechatronics projects
+[2013] Archbishop Mitty w/ honors
+Was mostly part of the swim team with some cross country, football, and the robotics club. I also liked volunteering at my local community service center.
+I learned that I'm apparently decent at physics.
+Miscellaneous:
+I've been weightlifting since I was 13 years old. I dedicate about 10 to 15 hours per week (it's my main hobby) to powerlifting, strength training, and Olympic weightlifting.
+Records: Squat (435 lbs), Bench (340), Deadlift (500), Clean (235), and Snatch (145)
+Height: 5'10"
+I deliberately maintain my body weight between 190 to 200 lbs
+Before my undergraduate, I was actually riding and doing tricks on BMX and Fixed Gear bikes - after school and all day on the weekends.
+I was riding with pros, filming videos, and competing in a few local competitions (and placing). I've injured myself and have been to the hospital several times.
+After my undergraduate, I started using a CPAP.
