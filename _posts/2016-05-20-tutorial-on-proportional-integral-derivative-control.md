@@ -5,6 +5,7 @@ layout: post
 
 
 ## Introduction
+
 A PID controller is an acryonym for Proportional-Integral-Derivative Control. When we want to control the output of a system (e.g. the angle or angular velocity of a motor), we would first develop a mathematical model representing the system's outputs as a function of its inputs. The controller provides the inputs necessary to give us the desired outputs. An example of a system is a brushed DC motor. These are controlled via 'direct current', hence the DC in its name. The angular-position, -velocity, and -acceleration are a function of the current applied to the motor's windings. 
 
 To understand why the PID controller works the way it does, first look at an example of a system without any feedback or algorithm at all:
@@ -14,7 +15,7 @@ Assume that 'Controller' is just a value of 1. The required/desired process resp
 
 Now look at the system model with PID and feedback:
 
-# insert diagram
+### <insert diagram>
 
 Notice the arrow pointing back towards the summing block from the output of the plant. This is to compute for the error, the output value of that same summing block. Conceptually what's happening is that the PID controller is modifying our input to the system based on the error dynamics. 
 
@@ -27,9 +28,9 @@ $$ u(t) = K_p e(t) + K_I \int e(t)dt + K_d \frac{de}{dt} $$
 
 ### Controller gains
 
-- $K_P$ is proportional gain where $e(t) = y_{desired} - y{actual}$
-- $K_I$ is integral gain.
-- $K_D$ is derivative gain.
+- $$K_P$$ is proportional gain where $$e(t) = y_{desired} - y{actual}$$
+- $$K_I$$ is integral gain.
+- $$K_D$$ is derivative gain.
 
 These are coefficients that we update and tune to change system behavior based on different error dynamics. Tuning for each coefficient has a different meaning because of how the error is being processed.
 

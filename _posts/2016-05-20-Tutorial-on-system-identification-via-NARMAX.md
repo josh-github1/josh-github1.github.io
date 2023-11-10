@@ -20,9 +20,9 @@ Moving on to the actual method, in this article I will expand on a method called
 
 $$ Y(t) = F(y_{t-1}, y_{t-2}, ..., y_{t-n_y}, u_{t-d}, u_{t-d-1}, ..., u_{t-d-n_x}) + \epsilon _t $$
 
-- $ y_{t-n} $ consists of previous system outputs.
-- $ u_{t-n} $ consists of previous system inputs.
-- $ \epsilon _t $ consists of measurement noise and uncertainty.
+- $$y_{t-n}$$ consists of previous system outputs.
+- $$u_{t-n}$$ consists of previous system inputs.
+- $$\epsilon _t$$ consists of measurement noise and uncertainty.
 
 So the current system output depends on previous outputs, previous inputs, and current & previous measurement noise & uncertainties. For those wondering what is meant nx, ny, and ne - these represent the maximum lag for the system output and input. Lag represents the time delay or delta for a system's process variable to output a new value with respect to a control action.
 
@@ -107,9 +107,15 @@ This image has an empty alt attribute; its file name is singleneuron.png
 
 ## References
 [1] Introduction to NARMAX Models - SysIdentPy
+
 [2] Basic Usage - SysIdentPy
+
 [3] programming-exercises/demo.py at master · enesdemirag/programming-exercises (github.com)
+
 [4] Unsupervised Feature Learning and Deep Learning Tutorial (stanford.edu)
+
 [ ] Neural NARX - SysIdentPy
+
 [ ] Design Time Series NARX Feedback Neural Networks - MATLAB & Simulink (mathworks.com)
+
 [ ] 2006.02915.pdf (arxiv.org)
